@@ -1,0 +1,56 @@
+baseURL = "http://www.satu.co.nz"
+languageCode = "en-us"
+title = "Stars and the Underground"
+theme = "ananke"
+
+[deployment]
+order = [".jpg$", ".gif$"]
+
+[[deployment.targets]]
+name = "Stars-Site"
+URL = "gs://www.satu.co.nz"
+
+ [[deployment.matchers]]
+#  Cache static assets for 1 year.
+pattern = "^.+\\.(js|css|svg|ttf)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = false
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/"
+    weight = -110 
+     
+  [[menu.main]]
+  identifier = "releases"
+  name = "releases"
+  pre = "<i class='fa fa-heart'></i>"
+  url = "/releases/"
+  weight = -110
+
+  [[menu.main]]
+  identifier = "shows"
+  name = "shows"
+  pre = "<i class='fa fa-heart'></i>"
+  url = "/shows/"
+  weight = -110
+
+  [[menu.main]]
+  identifier = "press"
+  name = "press"
+  pre = "<i class='fa fa-heart'></i>"
+  url = "/shows/"
+  weight = -110
