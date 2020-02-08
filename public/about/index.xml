@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Stars and the Underground</title>
+    <link>http://www.satu.co.nz/about/</link>
+    <description>Recent content in About on Stars and the Underground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://www.satu.co.nz/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://www.satu.co.nz/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.satu.co.nz/about/about/</guid>
+      <description>My name is John Mason and I am a singer songwriter based in Auckland, New Zealand my music inhabits the Post Punk, Shoe Gaze, and Dark Electronic genres.
+I cut my musical teeth in a band called &amp;ldquo;Winterland&amp;rdquo; formed with Mike Caulfield in the early 2000s we released two EPs and an album and a video.
+We played Sweetwaters, the 95bFM Summer Series, Club Bizarre&#39;s Vampyre and Nocturne Balls, and Mediatrix&#39;s The Darkness Gathering received nationwide radio airplay for several tracks.</description>
+    </item>
+    
+  </channel>
+</rss>

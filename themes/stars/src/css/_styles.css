@@ -1,5 +1,7 @@
 /* Put your custom styles here and run `npm start` from the "src" directory on */
 
+
+
 #TableOfContents ul li {
   margin-bottom: 1em;
 }
@@ -16,13 +18,14 @@
 }
 
 body{
-  background-color:aliceblue;
+  background-color:red;
 }
 
 header{
   height:400pt;
   width:100%;
   background-size: cover;
+  background-color:red;
 }
 
 h1{

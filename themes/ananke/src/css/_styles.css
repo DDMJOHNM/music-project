@@ -16,18 +16,20 @@
 }
 
 body{
-  background-color:aliceblue;
+  background-color:red;
 }
 
 header{
   height:400pt;
   width:100%;
   background-size: cover;
+  background-color:red;
 }
 
 h1{
   color:white;
   text-align: center;
+  color: red;
 }
 
 #content{

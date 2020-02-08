@@ -70,7 +70,7 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed: ModuleParseError: Module parse failed: C:\\Hugo\\Sites\\quickstart\\static\\images\\welly.jpg Unexpected character '�' (1:0)\nYou may need an appropriate loader to handle this file type.\n(Source code omitted for this binary file)\n    at doBuild (C:\\Hugo\\Sites\\quickstart\\themes\\ananke\\src\\node_modules\\webpack\\lib\\NormalModule.js:296:19)\n    at runLoaders (C:\\Hugo\\Sites\\quickstart\\themes\\ananke\\src\\node_modules\\webpack\\lib\\NormalModule.js:206:11)\n    at C:\\Hugo\\Sites\\quickstart\\themes\\ananke\\src\\node_modules\\loader-runner\\lib\\LoaderRunner.js:370:3\n    at iterateNormalLoaders (C:\\Hugo\\Sites\\quickstart\\themes\\ananke\\src\\node_modules\\loader-runner\\lib\\LoaderRunner.js:211:10)\n    at C:\\Hugo\\Sites\\quickstart\\themes\\ananke\\src\\node_modules\\loader-runner\\lib\\LoaderRunner.js:202:4\n    at C:\\Hugo\\Sites\\quickstart\\themes\\ananke\\src\\node_modules\\enhanced-resolve\\lib\\CachedInputFileSystem.js:70:14\n    at process._tickCallback (internal/process/next_tick.js:61:11)");
 
 /***/ }),
 /* 1 */
