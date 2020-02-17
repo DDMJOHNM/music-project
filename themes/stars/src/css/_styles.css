@@ -1,7 +1,5 @@
 /* Put your custom styles here and run `npm start` from the "src" directory on */
 
-
-
 #TableOfContents ul li {
   margin-bottom: 1em;
 }
@@ -18,14 +16,14 @@
 }
 
 body{
-  background-color:red;
+  color:yellow!important;
 }
 
 header{
   height:400pt;
   width:100%;
   background-size: cover;
-  background-color:red;
+ 
 }
 
 h1{
@@ -37,6 +35,7 @@ h1{
   display: flex;
   flex-direction: column;
   align-items: center;    
+  background-color: aqua;
 }
 
 .w-30-l{

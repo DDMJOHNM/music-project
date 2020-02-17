@@ -1,0 +1,5 @@
+{{ $header_image := .Param "header_image"}}
+{{ $logo := .Param "logo_image"}}
+<header>
+   <h1><img src="{{ $logo }};" alt="{{.Title}}"/>{{.Title}}</h1>
+</header>    

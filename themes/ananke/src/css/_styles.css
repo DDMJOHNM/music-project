@@ -16,28 +16,34 @@
 }
 
 body{
-  background-color:red;
+  background-color:#eee;
 }
 
 header{
-  height:400pt;
   width:100%;
   background-size: cover;
-  background-color:red;
+  background-color:#CCC;
+  border:1px solid red;  
 }
 
 h1{
-  color:white;
   text-align: center;
-  color: red;
+  color: white;
 }
 
 #content{
   display: flex;
   flex-direction: column;
   align-items: center;    
-  
+ 
 }
+
+#homepage-content{
+  color: purple; 
+  width:80%;
+  margin:auto;
+}
+
 
 .w-30-l{
   width:100%;

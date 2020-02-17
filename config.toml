@@ -1,6 +1,6 @@
 baseURL = "http://www.satu.co.nz"
 languageCode = "en-us"
-title = "Stars and the Underground"
+title = "Stars"
 theme = "ananke"
 
 [deployment]
