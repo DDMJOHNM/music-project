@@ -3,6 +3,8 @@ title: "About"
 draft: false
 ---
 
+![No Image](/images/welly.jpg)
+
 My name is John Mason and I am a singer songwriter based in Auckland, New Zealand my music inhabits the Post Punk, Shoe Gaze, and Dark Electronic genres. 
  
 I cut my musical teeth in a band called "Winterland" formed with Mike Caulﬁeld in the early 2000s we released two EPs and an album and a video.  

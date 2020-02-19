@@ -16,26 +16,32 @@
 }
 
 body{
-  background-color:#eee;
+  background-color:#FFF;
+  color: #444;
+  font-family: 'Roboto', sans-serif;
 }
 
 header{
   width:100%;
   background-size: cover;
-  background-color:#CCC;
-  border:1px solid red;  
+  color:black;
+  background:#fff;
+  padding: 0;
+  margin: 0;
 }
 
 h1{
   text-align: center;
   color: white;
+  font-size: 18pt;
+ 
 }
 
 #content{
   display: flex;
   flex-direction: column;
   align-items: center;    
- 
+  color: #444;
 }
 
 #homepage-content{
@@ -47,4 +53,12 @@ h1{
 
 .w-30-l{
   width:100%;
+}
+
+#content{
+  display: flex;
+  justify-content:space-around;
+  width: 70%;
+  margin: auto;
+  padding:10pt;
 }
