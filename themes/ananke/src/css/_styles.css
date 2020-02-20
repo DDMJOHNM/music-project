@@ -16,38 +16,42 @@
 }
 
 body{
-  background-color:#FFF;
-  color: #444;
+  background-color:aliceblue;
+  color:#444;
   font-family: 'Roboto', sans-serif;
+  font-size: 10pt;
+}
+
+main{
+  padding:20pt;
+ 
 }
 
 header{
   width:100%;
   background-size: cover;
-  color:black;
-  background:#fff;
   padding: 0;
   margin: 0;
 }
 
 h1{
   text-align: center;
-  color: white;
   font-size: 18pt;
- 
+  letter-spacing: 1pt;
+}
+
+h2,h3{
+  padding:10pt 0 10pt 0; 
 }
 
 #content{
   display: flex;
   flex-direction: column;
-  align-items: center;    
-  color: #444;
-}
-
-#homepage-content{
-  color: purple; 
-  width:80%;
-  margin:auto;
+  align-items: center;     
+  margin: auto;
+  text-justify:inter-cluster;
+  max-width: 80%;
+  line-height: 12pt;
 }
 
 
@@ -55,10 +59,10 @@ h1{
   width:100%;
 }
 
-#content{
-  display: flex;
-  justify-content:space-around;
-  width: 70%;
-  margin: auto;
-  padding:10pt;
+nav{
+ text-align: center;
+}
+
+footer{
+  text-align: center;
 }

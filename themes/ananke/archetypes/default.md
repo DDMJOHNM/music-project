@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "Stars And The Underground"
 date: {{ .Date }}
-draft: true
+draft: false
 ---
 Hello

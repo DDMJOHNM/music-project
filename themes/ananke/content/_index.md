@@ -1,19 +1,14 @@
 ---
-title: "Stars and the Underground"
+title: "Welcome"
 draft: false
-header_image: "./images/welly.jpg"
-logo_image: "./images/welly.jpg"
 ---
-Homepage Content Here
+
+### New Zealand Post-Punk, Shoegaze & Dark Electronic Music 
+
+![No Image](/images/welly.jpg)
 
 
-TODO: 
+### Current News:
+[New Single Recording!](/posts) 
 
-svg logo 
-
-include post on front page
-
-sass
-
-global navigation
 

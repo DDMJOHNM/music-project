@@ -3,7 +3,9 @@ title: "Press"
 draft: false
 ---
 
-Drab Majesty DJ Passion Crypt, 27th January 2019, Whammy! Back Room, Auckland, New Zealand 
+## Press
+
+### Drab Majesty DJ Passion Crypt, 27th January 2019, Whammy! Back Room, Auckland, New Zealand 
  
 The humidity of the Summer season was at an all me high but that was not going to stop fans aending the sold out Drab Majesty show at Whammy Backroom, ancipaon levels peaking as they ﬁled through the doors to watch local support act Stars and the Underground strut their stuﬀ before the dark duo of Deb Demure and Mona D descended in all their tragic wave glory. 
  

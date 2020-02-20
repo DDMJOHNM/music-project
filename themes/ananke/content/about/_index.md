@@ -3,7 +3,7 @@ title: "About"
 draft: false
 ---
 
-![No Image](/images/welly.jpg)
+## About
 
 My name is John Mason and I am a singer songwriter based in Auckland, New Zealand my music inhabits the Post Punk, Shoe Gaze, and Dark Electronic genres. 
  

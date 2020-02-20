@@ -3,10 +3,17 @@ title : "Releases"
 draft: false
 ---
 
-![EP Cover Image](images/ep.png)
+## Releases
+
+### Evolution Circle 
+Limited Edition AU/NZ Sampler 
+
+![EP Cover Image](/images/ep.png)
+#### Released: June 1, 2019
 
 Limited Edion AU/NZ Sampler credits released June 1, 2019  
- 
+
+
 John Mason (Vocals,Guitars,Programming) 
 
 Sean O'Kane Connolly (Keyboards/Vocals) 
