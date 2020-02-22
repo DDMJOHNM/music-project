@@ -1,68 +1,10 @@
 /* Put your custom styles here and run `npm start` from the "src" directory on */
 
-#TableOfContents ul li {
-  margin-bottom: 1em;
-}
-
-.lh-copy blockquote {
-  display: block;
-  font-size: .875em;
-  margin-left: 2rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  border-left: 4px solid #ccc;
-  padding-left: 1rem;
-
-}
-
-body{
-  background-color:aliceblue;
-  color:#444;
-  font-family: 'Roboto', sans-serif;
-  font-size: 10pt;
-}
-
-main{
-  padding:20pt;
- 
-}
-
-header{
-  width:100%;
-  background-size: cover;
-  padding: 0;
-  margin: 0;
-}
-
-h1{
-  text-align: center;
-  font-size: 18pt;
-  letter-spacing: 1pt;
-}
-
-h2,h3{
-  padding:10pt 0 10pt 0; 
-}
-
-#content{
-  display: flex;
-  flex-direction: column;
-  align-items: center;     
-  margin: auto;
-  text-justify:inter-cluster;
-  max-width: 80%;
-  line-height: 12pt;
-}
-
-
-.w-30-l{
-  width:100%;
-}
-
-nav{
- text-align: center;
-}
-
-footer{
-  text-align: center;
-}
+body{background-color: black;color:white;font-family: 'Roboto';}
+nav h1{padding:10pt;text-align:center;vertical-align:middle; letter-spacing: 2pt;}
+nav img{vertical-align: middle;}
+header ul{ text-align: center;}
+header ul li {display: inline;text-align: center; margin-right:5pt}
+header ul li a { color: cornflowerblue;text-align: center; padding:10pt; text-decoration: none;}
+main{width:60%; margin:auto}
+footer{text-align: center;margin-top: 50pt;}

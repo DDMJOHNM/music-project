@@ -1,56 +1,46 @@
-baseURL = "http://www.satu.co.nz"
+baseURL = "www.satu.co.nz"
 languageCode = "en-us"
-title = "Stars"
-theme = "ananke"
+title = "Stars and the Underground"
+theme="ananke"
 
-[deployment]
-order = [".jpg$", ".gif$"]
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 3
 
-[[deployment.targets]]
-name = "Stars-Site"
-URL = "gs://www.satu.co.nz"
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 3
 
- [[deployment.matchers]]
-#  Cache static assets for 1 year.
-pattern = "^.+\\.(js|css|svg|ttf)$"
-cacheControl = "max-age=31536000, no-transform, public"
-gzip = true
-
-[[deployment.matchers]]
-pattern = "^.+\\.(png|jpg)$"
-cacheControl = "max-age=31536000, no-transform, public"
-gzip = false
-
-[[deployment.matchers]]
-pattern = "^.+\\.(html|xml|json)$"
-gzip = true
-
-[menu]
-
-  [[menu.main]]
-    identifier = "about"
-    name = "about"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/about/"
-    weight = -110 
-     
-  [[menu.main]]
-  identifier = "releases"
-  name = "releases"
-  pre = "<i class='fa fa-heart'></i>"
-  url = "/releases/"
-  weight = -110
-
-  [[menu.main]]
+[[menu.main]]
   identifier = "shows"
-  name = "shows"
-  pre = "<i class='fa fa-heart'></i>"
+  name = "Shows"
   url = "/shows/"
-  weight = -110
+  weight = 3
 
-  [[menu.main]]
-  identifier = "press"
-  name = "press"
-  pre = "<i class='fa fa-heart'></i>"
-  url = "/shows/"
-  weight = -110
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 3
+
+[[menu.main]]
+  identifier = "releases"
+  name = "Releases"
+  url = "/releases/"
+  weight = 3
+
+[[menu.main]]
+  identifier = "video"
+  name = "Video"
+  url = "/video/"
+  weight = 3
+
+[params.logo]
+  url = "logo.jpg"
+  width = 50
+  height = 50
+  alt = "Logo"
