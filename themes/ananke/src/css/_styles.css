@@ -1,10 +1,23 @@
 /* Put your custom styles here and run `npm start` from the "src" directory on */
 
-body{background-color: black;color:white;font-family: 'Roboto';}
-nav h1{padding:10pt;text-align:center;vertical-align:middle; letter-spacing: 2pt;}
+body{
+    /*background-image: url("/images/background.jpg");*/
+    background-size: cover;
+    background-color: black;
+    color:lavenderblush;
+    font-family: 'Roboto';
+    letter-spacing: 0.5px; 
+    line-height: 16pt;
+}
+nav h1{text-align:center; letter-spacing: 2pt;}
 nav img{vertical-align: middle;}
-header ul{ text-align: center;}
-header ul li {display: inline;text-align: center; margin-right:5pt}
-header ul li a { color: cornflowerblue;text-align: center; padding:10pt; text-decoration: none;}
-main{width:60%; margin:auto}
-footer{text-align: center;margin-top: 50pt;}
+img{padding :10pt 0 10pt 0}
+header ul{ text-align: center; }
+header ul li {display: inline;text-align: center;margin-right:10pt}
+a { color: cornflowerblue; text-decoration: none;}
+main{width:60%; margin:50pt auto auto auto;min-height:calc(vh-50px)}
+main h1{font-size: 14pt;}
+h2,h3,h4 {letter-spacing: 1pt;}
+footer{text-align: center;margin-top: 50pt; }
+table{text-align: left}
+table td{padding:2pt; text-align: left;}

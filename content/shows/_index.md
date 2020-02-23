@@ -39,7 +39,7 @@ draft: false
 
 ### 2017
 
-5th February, 2017 - Ikon, Sounds Like Winter, Disjectamembra Whammy Bar, Auckland
+5th February, 2017 - Ikon, Sounds Like Winter, Disjectamembra Whammy Bar, Auckland 
 
 
 

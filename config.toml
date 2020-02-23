@@ -38,6 +38,12 @@ theme="ananke"
   name = "Video"
   url = "/video/"
   weight = 3
+  
+[[menu.main]]
+  identifier = "press"
+  name = "Press"
+  url = "/press/"
+  weight = 3
 
 [params.logo]
   url = "logo.jpg"
