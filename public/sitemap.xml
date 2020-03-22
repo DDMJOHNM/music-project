@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-03-01T15:27:44+13:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/_news-new-single-31-12-2019/</loc>
+    <lastmod>2020-03-01T15:27:44+13:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2020-03-01T15:27:44+13:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/gallery/</loc>
+  </url>
+  
+  <url>
+    <loc>/press/</loc>
+  </url>
+  
+  <url>
+    <loc>/releases/</loc>
+  </url>
+  
+  <url>
+    <loc>/shows/</loc>
+  </url>
+  
+  <url>
+    <loc>/video/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+  </url>
+  
+</urlset>

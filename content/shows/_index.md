@@ -5,6 +5,10 @@ draft: false
 
 ## Shows
 
+### 2020
+
+TBA
+
 ### 2019
 
 9th November, 2019 - Shadowplay, Moon 1, Wellington
@@ -26,7 +30,7 @@ draft: false
 1st June, 2019 - Lichtbeuger, Creassault, Polter:Geist Thirsty Dog, Auckland 
 
 
-27th January, 2018 - Drab Majesty, DJ Passion Crypt Whammy Backroom, Auckland
+27th January, 2019 - Drab Majesty, DJ Passion Crypt Whammy Backroom, Auckland
 
 
 ### 2018

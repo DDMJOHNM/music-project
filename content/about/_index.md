@@ -1,16 +1,15 @@
 ---
 draft: false
+
 ---
 
 ## About
 
-![Band Image](/images/band.jpg)  
- 
-
+{{< image band Resize "600x" />}}
 
 ### Members
 John Mason - Vocals, Guitars  
-Sean Okane Connolly - Keyboards/Programming  
+Sean OKane Connolly - Keyboards/Programming  
 Cat Veen - Keyboards  
 Ario Kimber Manufui - Bass Guitar    
 

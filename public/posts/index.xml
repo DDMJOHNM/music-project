@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Stars and the Underground</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Stars and the Underground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Mar 2020 15:27:44 +1300</lastBuildDate>
+    
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>News: New Single</title>
+      <link>/posts/_news-new-single-31-12-2019/</link>
+      <pubDate>Sun, 01 Mar 2020 15:27:44 +1300</pubDate>
+      
+      <guid>/posts/_news-new-single-31-12-2019/</guid>
+      <description>We are due back in the studio in March 2020 to record a new single &amp;ldquo;Nosferatu Upon Tyne&amp;rdquo;.
+We are recording at Arch Hill Recording Studios in Auckland with John McDermott.
+This recording session was the first for our new bass player Ari and our keyboard player Cat.
+We enjoyed track laying with John and the drums he laid down were awesome.
+Another session will be required to tie some loose ends on the track and to mix.</description>
+    </item>
+    
+  </channel>
+</rss>

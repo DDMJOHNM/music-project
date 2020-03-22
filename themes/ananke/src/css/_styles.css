@@ -1,9 +1,8 @@
 /* Put your custom styles here and run `npm start` from the "src" directory on */
 
 body{
-    /*background-image: url("/images/background.jpg");*/
+    background-image: url("/images/background.jpg");
     background-size: cover;
-    background-color: black;
     color:lavenderblush;
     font-family: 'Roboto';
     letter-spacing: 0.5px; 
@@ -15,9 +14,27 @@ img{padding :10pt 0 10pt 0}
 header ul{ text-align: center; }
 header ul li {display: inline;text-align: center;margin-right:10pt}
 a { color: cornflowerblue; text-decoration: none;}
-main{width:60%; margin:50pt auto auto auto;min-height:calc(vh-50px)}
+
 main h1{font-size: 14pt;}
 h2,h3,h4 {letter-spacing: 1pt;}
 footer{text-align: center;margin-top: 50pt; }
 table{text-align: left}
 table td{padding:2pt; text-align: left;}
+.social-links{font-size: 10pt; padding-top:20pt;}
+article {background-color: black; padding: 50pt;opacity:1.0;border:0.5px solid #333; max-width:100%}
+
+.content-gallery img{
+    max-width: 80%;
+    margin:auto;
+}
+
+@media only screen and (max-device-width: 480px) {
+    main{width:90%; margin:50pt auto auto auto;min-height:calc(vh-50px)}
+    nav h1{ font-size: small; letter-spacing: 2pt;}
+ 
+}
+
+@media only screen and (min-device-width: 481px) {
+    main{width:60%; margin:50pt auto auto auto;min-height:calc(vh-50px)}
+ 
+}

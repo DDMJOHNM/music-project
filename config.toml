@@ -1,52 +1,113 @@
-baseURL = "www.satu.co.nz"
+baseURL = ""
 languageCode = "en-us"
 title = "Stars and the Underground"
 theme="ananke"
-
+ 
 [[menu.main]]
   identifier = "home"
   name = "Home"
   url = "/"
-  weight = 3
+  weight = 1
+  
+[[resources]]
+  name = "band"
+  src = "/images/band.jpg"
 
 [[menu.main]]
   identifier = "posts"
   name = "Posts"
-  url = "/posts/"
-  weight = 3
+  url = "/posts/index.html"
+  weight = 2
 
 [[menu.main]]
   identifier = "shows"
   name = "Shows"
-  url = "/shows/"
+  url = "/shows/index.html"
   weight = 3
 
 [[menu.main]]
   identifier = "about"
   name = "About"
-  url = "/about/"
-  weight = 3
+  url = "/about/index.html"
+  weight = 4
+
+[[resources]]
+  name = "band"
+  src = "/images/band.jpg"
+
 
 [[menu.main]]
   identifier = "releases"
   name = "Releases"
-  url = "/releases/"
-  weight = 3
+  url = "/releases/index.html"
+  weight = 5
+
+  [[resources]]
+  name = "ep"
+  src = "/images/ep.png"
+
 
 [[menu.main]]
   identifier = "video"
   name = "Video"
-  url = "/video/"
-  weight = 3
+  url = "/video/index.html"
+  weight = 6
   
 [[menu.main]]
   identifier = "press"
   name = "Press"
-  url = "/press/"
-  weight = 3
+  url = "/press/index.html"
+  weight = 7
+  
+[[menu.main]]
+  identifier = "gallery"
+  name = "Gallery"
+  url = "/gallery/index.html"
+  weight = 8
+
+ [[resources]]
+  name = "shadowplay"
+  src = "/images/shadowplay.jpg"
+ [[resources]]
+  name = "band"
+  src = "/images/band.jpg"
+  [[resources]]
+  name = "aug2019show"
+  src = "/images/august_2019_show.jpg"
+ [[resources]]
+  name = "aug2019poster"
+  src = "/images/august_2019_poster.jpg"
+  
 
 [params.logo]
   url = "logo.jpg"
   width = 50
   height = 50
   alt = "Logo"
+
+  [deployment]
+# By default, files are uploaded in an arbitrary order.
+# Files that match the regular expressions in the "Order" list
+# will be uploaded first, in the listed order.
+order = [".jpg$",".png$",".gif$",".css$",".js$"]
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "gcs"
+URL = "gs://www.satu.co.nz"
+
+[[deployment.matchers]]
+#  Cache static assets for 20 years.
+pattern = "^.+\\.(js|css|svg|ttf)$"
+# cacheControl = "max-age=630720000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg)$"
+# cacheControl = "max-age=630720000, no-transform, public"
+gzip = false
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true
+
