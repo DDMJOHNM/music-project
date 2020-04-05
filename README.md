@@ -2,7 +2,7 @@
 
 hugo a go static site generator
 
-Created a theme utilising image resizing short codes
+Created a theme based on original ananke theme utilising image resizing short codes
 
 Deployed to GCP Bucket 
 
