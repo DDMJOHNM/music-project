@@ -8,8 +8,8 @@ Deployed to GCP Bucket
 
 ## Local Development 
 
-``` /hugo/sites/music-project
-
+``` 
+/hugo/sites/music-project
 hugo -D 
 hugo server -D 
 hugo deploy [target=xxxxxx]
