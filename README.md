@@ -1,15 +1,16 @@
 # music-project 
 
-Initial development efforts with hugo a go static site generator
+hugo a go static site generator
 
-Created a theme 
+Created a theme utilising image resizing short codes
 
 Deployed to GCP Bucket 
 
 ## Local Development 
 
-/hugo/sites/music-project
+``` /hugo/sites/music-project
 
 hugo -D 
 hugo server -D 
 hugo deploy [target=xxxxxx]
+```
