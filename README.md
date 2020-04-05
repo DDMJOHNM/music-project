@@ -1,10 +1,10 @@
 # music-project 
 
-hugo a go static site generator
+- hugo a go static site generator
 
-Created a theme based on original ananke theme utilising image resizing short codes
+- Created a theme based on original ananke theme utilising image resizing short codes
 
-Deployed to GCP Bucket 
+- Deployed to GCP Bucket 
 
 ## Local Development 
 
