@@ -2,7 +2,10 @@ baseURL = ""
 languageCode = "en-us"
 title = "Stars and the Underground"
 theme="ananke"
- 
+googleAnalytics="UA-129726383-1" 
+
+
+
 [[menu.main]]
   identifier = "home"
   name = "Home"
@@ -77,7 +80,9 @@ theme="ananke"
  [[resources]]
   name = "aug2019poster"
   src = "/images/august_2019_poster.jpg"
-  
+
+[params]
+ env = "production"  
 
 [params.logo]
   url = "logo.jpg"
