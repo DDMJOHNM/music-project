@@ -6,6 +6,6 @@ draft: false
 
 {{< image band Resize "600x" />}}
 
-Wellington, November 2019
+
 
 

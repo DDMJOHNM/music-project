@@ -6,7 +6,7 @@ body{
     color:lavenderblush;
     font-family: 'Roboto';
     letter-spacing: 0.5px; 
-    line-height: 16pt;
+    line-height: 20pt;
 }
 nav h1{text-align:center; letter-spacing: 2pt;}
 nav img{vertical-align: middle;}
@@ -21,7 +21,7 @@ footer{text-align: center;margin-top: 50pt; }
 table{text-align: left}
 table td{padding:2pt; text-align: left;}
 .social-links{font-size: 10pt; padding-top:20pt;}
-article {background-color: black; padding: 50pt;opacity:1.0;border:0.5px solid #333; max-width:100%}
+article {background-color: black; padding: 50pt;opacity:1.0;border:0.5px solid #333; max-width:100%;margin-bottom:20pt;}
 
 .content-gallery img{
     max-width: 80%;
