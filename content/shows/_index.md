@@ -7,7 +7,7 @@ draft: false
 
 ### 2020
 
-TBA
+19th September, 2020 - Dark Shadows Nocturne, Mr M Nirvara Lounge, Hamilton 
 
 ### 2019
 
